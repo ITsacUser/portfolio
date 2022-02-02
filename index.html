@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile | ドァン アン　トァン</title>
+
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body onload="Load()">
+
+    <div class="container animate-bottom" id="main">
+        <div class="row">
+            <!-- Top Bar -->
+            <div class="col-lg-12 col-md-12">
+
+                <div class="header">
+                    <h2 class="title text-center wow animate__fadeIn" data-wow-duration="2s">About Me</h2>
+                </div>
+
+                <div class="topbar">
+
+                    <!-- Avatar -->
+                    <img src="images/avatar.png"
+                        class="img-responsive rounded-circle mx-auto d-block wow animate__fadeIn" data-wow-duration="1s"
+                        width="90" height="90" alt="Avatar">
+                    <div class="name text-center mt-3 wow animate__fadeIn" data-wow-duration="1s">
+                        <p>DOAN ANH TUAN
+                            <br>ドァン　アン　トァン
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="desc text-center">
+                    <p>こんにちは！ 私は<span>ドァン　アン　トァン</span>と申します。</p>
+                    <p>日本の埼玉県に住んでいます。2020年中央情報専門学校のIT.Web学科を卒業しました。</p>
+                    <p>現在 Web作成、LP作成、Webアプリケーションの作成、Webスクレイピングを学んでいます。</p>
+                </div>
+
+            </div>
+
+            <!-- main -->
+            <div class="col-lg-12 col-md-12 pl-5 pr-5">
+
+                <div class="main-skill">
+                    <h2 class="title text-center wow animate__fadeIn" data-wow-duration="2s">スキル</h2>
+                </div>
+
+                <div class="main">
+                    <div class="my-skill">
+                        <!-- Program language -->
+                        <table class="table">
+
+                            <thead>
+                                <tr>
+                                    <th scope="col">言語</th>
+                                    <th scope="col">スキル</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Html</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 70%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Css</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 40%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>JavaScript</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>PHP</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-pink" role="progressbar" style="width: 30%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        <!-- framework library -->
+                        <table class="table">
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">FW、LIB <span class="text-danger">*</span></th>
+                                    <th scope="col">スキル</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Bootstrap</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Node.JS</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-purple" role="progressbar" style="width: 50%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Express.JS</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-cyan " role="progressbar" style="width: 60%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Socket.IO</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-rose " role="progressbar" style="width: 30%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Puppeteer</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-primary " role="progressbar" style="width: 60%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Jquery</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-fuchsia " role="progressbar" style="width: 40%"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <!-- Hardware -->
+                        <table class="table">
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">ハードウェア</th>
+                                    <th scope="col">スキル</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Raspberry Pi</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Arduino</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 20%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <!-- OS -->
+                        <table class="table">
+
+                            <thead>
+
+                                <tr>
+                                    <th scope="col">環境</th>
+                                    <th scope="col">スキル</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <th>Windows OS</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-cyan" role="progressbar" style="width: 70%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>MacOS</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-pink" role="progressbar" style="width: 40%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>Ubuntu</th>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-rose" role="progressbar" style="width: 40%"
+                                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                        <p class="notes"><span class="text-danger">*</span> フレームワークとライブラリ</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project -->
+            <div class="col-lg-12 col-md-12">
+
+                <div class="project">
+                    <h2 class="title text-center wow animate__fadeInDown" data-wow-duration="1s">公開プロジェクト</h2>
+                </div>
+                <div class="project-main">
+                   <p> LP作成： <a target="_blank" href="https://itsacuser.github.io/sample-LP/">https://itsacuser.github.io/sample-LP/</a></p>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="col-lg-12 col-md-12">
+
+                <div class="about-footer">
+                    <h2 class="title text-center wow animate__fadeInDown" data-wow-duration="1s">サイトについて</h2>
+                </div>
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="mb-4">
+                                サイトについて：
+                            </h6>
+                            <p>
+                                こちらのサイトはポートフォリオ専用させていただきます。 <br>
+                                無料画像やアイコンを使いました。
+                            </p>
+                            <p>お問い合わせ</p>
+                            <p>
+                                <a href="mailto:d-a-tuan@itsac.co.jp" class="text-reset">d-a-tuan@itsac.co.jp</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- framework -->
+                            <h6 class="mb-4">
+                                フレームワーク
+                            </h6>
+                            <p>
+                                <a href="https://getbootstrap.com/" class="text-reset">Bootstrap</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- library -->
+                            <h6 class="mb-4">
+                                ライブラリ
+                            </h6>
+                            <p>
+                                <a href="https://animate.style/" class="text-reset">Animate.JS</a>
+                            </p>
+                            <p>
+                                <a href="https://wowjs.uk/" class="text-reset">WOW.JS</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="mb-4">
+                                アイコンや画像
+                            </h6>
+                            <p>
+                                <a href="https://loading.io/css/" class="text-reset">Loading.io CSS</a>
+                            </p>
+                            <p>
+                                <a href="https://www.pexels.com/" class="text-reset">Pexels.com 画像</a>
+                            </p>
+                            <p>
+                                <a href="https://www.pinterest.jp/thaomeow12345/couple-lol/" class="text-reset">Pinterest.jp Avatar </a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2022 Copyright By ANH TUAN
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lds-roller" id="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- JS -->
+    <!-- BootStrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- WOw JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- WOW.JS -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
