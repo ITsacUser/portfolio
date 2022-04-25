@@ -104,12 +104,8 @@ div:nth-child(3) > div.project-main > table > thead > tr > th:nth-child(1) {
     ;
 }
 
-.table tbody th {
-    width: 56px;
-}
-
 th:nth-child(1) {
-    width: 150px;
+    width: 250px;
 }
 
 .table td, .table th {
